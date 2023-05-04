@@ -39,4 +39,9 @@ The "Euromillion Tips" program was developed by me, Katharina Enzinger, as part 
 + [Exercise2](exercise2.md)
 
 
+## GIT Indroduction
++ [Link to GitHub](https://github.com/KatharinaEnzinger/bsd22_enzinger_katharina)
++ [Link to Campus 02](https://www.campus02.at/)
+
+
 
