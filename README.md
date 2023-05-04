@@ -36,6 +36,7 @@ The "Euromillion Tips" program was developed by me, Katharina Enzinger, as part 
 
 ## My exercises of the course configuration management
 + [Exercise1](exercise1.md)
++ [Exercise2](exercise2.md)
 
 
 
