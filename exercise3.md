@@ -1,86 +1,39 @@
-# GIT INDRODUCTION 
+# Exercise 3
+## Maven project structure
 
-## description of individual commands  
-<br>
+### First steps
 
-### git-config:
-
-**Function:** allows configuration of Git parameters at global or project level, such as username and email address.  
-**Parameters:** different options can be passed, depending on which setting is to be configured.  
-**Affected Data:** Meta information such as author and email address for commits.  
-**Change location:** local
++ Check if Java is installed and set a JAVA_HOME and PATH environment variable.
++ Install Maven and also set variables
++ test with mvn -v whether the program is correctly installed
 
 <br>
 
-### git init:
+### Create a new project in Intellij
 
-**Function:** initializes an empty Git repository in a new or existing directory.  
-**Parameters:** none.  
-**Affected data:** none.  
-**Change location:** local, the git repository is created in the current directory.  
-
-<br>
-
-### git commit:
-
-**Function:** saves changes to files in the local repository and creates a new commit.  
-**Parameters:** a commit message and optional changes (via "git add") must be passed.  
-**Affected data:** payloads / files stored in a commit.  
-**Location of change:** local, in the repository.  
++ (Menü: File > New > Project)
++ The storage location of the existing directory is selected as "Location", where the
+Repository cloned using git clone
++ The .idea folder is added to the gitignore file
 
 <br>
 
-### git status:
-
-**Function:** displays the current status of the repository, including any unsaved changes.  
-**Parameters:** none.  
-**Affected Data:** Meta information and payload/files located in the working directory.  
-**Change location:** local.  
+### Create Java class Calculator
++ store in package at.campus02.bsd
++ create specified methods that return values
++ crate Java class Main where the methods are callec
 
 <br>
 
-### git add:
+### First execution of the program
 
-**Function:** adds changes to files in the working directory to the staging area for later committing.  
-**Parameters:** files or directories to add.  
-**Affected data:** payloads/files being moved to the staging area.  
-**Change location:** local, in the staging area.  
-
+When the program is run, the "Target" folder is added.
 <br>
 
-### git log:
+![](resources/images/ex3_1.jpg)
 
-**Function:** displays a chronological list of all commits in the repository.  
-**Parameters:** various options can be passed to filter or format the output.  
-**Affected Data:** Meta information about commits such as author, date, and commit message.  
-**Change location:** no change, just a display of information.  
-
-<br>
-
-### git diff:
-
-**Function:** shows the differences between two commits or between a commit and the current working directory.  
-**Parameters:** various options can be passed to filter or format the output.  
-**Affected data:** payload / files being compared.  
-**Change location:** no change, just a display of information.  
-
-<br>
-
-### git pull:
-
-**Function:** fetches changes from a remote repository and merges them into the local repository.  
-**Parameters:** information about the remote repository and the branch to be merged must be passed.  
-**Affected data:** payloads / files in the local repository.  
-**Change location:** local.  
-
-<br>
-
-### git push:
-
-**Function:** uploads changes from the local repository to a remote repository.  
-**Parameters:** information about the remote repository and the branch to be updated must be passed.  
-**Affected data:** payloads / files in the remote repository.  
-**Change location:** remote repository.  
+### mvn compile
+![](resources/images/ex3_2.png)
 
 
 
